@@ -11,3 +11,9 @@ export interface workExperience{
     duration: string,
     description: string[]
 }
+
+export interface skill{
+    name: string;
+    level: string;
+    rating: number;
+}
