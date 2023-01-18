@@ -1,1 +1,38 @@
 /* You can add global styles to this file, and also import other style files */
+:root{
+    --green: #2ee68d;
+    --green-light: #84f3a4;
+    --gray-light: #adabab;
+    --dark-gray: #263238;
+    --black: #212121;
+}
+
+
+* {
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body {
+
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Merriweather', serif;
+
+}
+
+h1 {
+    padding: 1rem 0;
+    text-align: center;
+    letter-spacing: 1px;
+    color: var(--green);
+    outline: 1px solid white;
+    border-radius: 12px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+
+.container {
+    margin: 0 auto;
+    max-width: 1800px;
+    outline: opx solid white;
+}
